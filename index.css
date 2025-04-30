@@ -1,0 +1,121 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to right, #e09d9d, #f91818);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url('flowery backgrndimg.png'); 
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+header {
+    text-align: center;
+    justify-content: center;
+    font-size: 2rem;
+    padding: 1rem;
+    background: linear-gradient(135deg, #ede6e6, #9c8d89);
+    color: #fff;
+    border-radius: 12px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+    width: 100%;
+}
+
+.nameboard {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+    background: linear-gradient(135deg, #ec4646, #e27253);
+    padding: 12px 24px;
+    border-radius: 16px;
+    box-shadow: 0 4px 15px rgba(159, 159, 157, 0.8);
+    display: inline-block;
+}
+
+.todo-box {
+    background: #ffffff;
+    border-radius: 20px;
+    padding: 2rem;
+    width: 350px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    margin-top: 2rem;
+    transition-property: all;
+    transition-duration: 1s;
+    position: relative;
+}
+.todo-box:hover{
+    color: white;
+    background-color: #2e2956;
+    transform: translateY(-15px);
+
+}
+
+.todo-box h2 {
+    color: #f67280;
+    margin-bottom: 1rem;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 2px solid #b75d0a;
+    border-radius: 8px;
+    outline: none;
+    transition: 0.3s;
+}
+.addbutton {
+    background: linear-gradient(to right, #700404, #e51708);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: bold;
+    width: 100%;
+}
+.addbutton:hover {
+    opacity: 0.9;
+}
+ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+li {
+    background: #df200f;
+    padding: 10px;
+    margin-bottom: 8px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li button {
+    background: #ff7675;
+    border: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+li button:hover {
+    opacity: 0.75;
+}
+.typewriter-text {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: rgb(232, 128, 128);
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    z-index: 1000;
+}
+.headerbox{
+    display: flex;
+    justify-content: center;
+}
